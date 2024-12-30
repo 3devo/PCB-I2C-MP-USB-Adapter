@@ -1,0 +1,19 @@
+# This workflow handles all kinds of pushes. What happens exactly is
+# decided by the generic workflow that we delegate to.
+name: Workflow
+
+on:
+  push:
+    tags:
+     - '**' # Use a double *, to also match /
+    branches:
+     - '*'
+  pull_request:
+
+jobs:
+  workflow:
+    permissions:
+      # Allow creating releases
+      contents: write
+    uses: 3devo/PCB-workflows/.github/workflows/dispatcher.yml@5165ca9496ab82403604c0384a2b88598c27fb70
+    secrets: inherit
