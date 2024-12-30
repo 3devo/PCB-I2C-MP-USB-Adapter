@@ -1,0 +1,322 @@
+(footprint "NS-Tech_Grove_1x04_P2mm_P2.54mm_Vertical"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf")
+	(tags "Grove-1x04")
+	(property "Reference" "J3"
+		(at -1.5 -3.235 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7e9556d7-6327-4488-852e-8bb114aa5608")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Grove"
+		(at 4.19 3.595 90)
+		(layer "F.Fab")
+		(uuid "081b41ae-6963-42ea-be0c-4ea7de37f3ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Footprints:NS-Tech_Grove_1x04_P2mm_P2.54mm_Vertical"
+		(at 0 0.765 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbe82bbf-b4a2-4b3b-8c69-06cd6b3043ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0.765 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f0b17d55-7beb-4133-a292-1d13a22885d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(at 0 0.765 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2622742b-7dad-47ad-91cd-b10d73f25017")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.3 -1.735)
+		(end -3.3 0.915)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79a6bb6c-1205-41de-ae72-44aa6cddbfc3")
+	)
+	(fp_line
+		(start -3.3 -1.735)
+		(end 2.55 -1.735)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee59816b-8e10-45d5-a116-1e1b3e9a05b0")
+	)
+	(fp_line
+		(start -3.3 1.165)
+		(end -3.3 1.765)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40868268-2893-47d4-af58-4c86ff72227f")
+	)
+	(fp_line
+		(start -3.3 2.015)
+		(end -3.3 5.515)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c55535fd-4ace-475e-9017-1342b2fe5d9e")
+	)
+	(fp_line
+		(start -3.3 5.765)
+		(end -3.3 6.365)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "34022c94-9f87-45bd-85be-64c976db3245")
+	)
+	(fp_line
+		(start -3.3 6.665)
+		(end -3.3 9.315)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e34e60e1-5b11-48db-a78f-6743174f01d6")
+	)
+	(fp_line
+		(start -3.3 9.315)
+		(end 2.55 9.315)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8c08320-7490-4126-88f3-6cc81492d28d")
+	)
+	(fp_line
+		(start 0 -2.235)
+		(end 3 -2.235)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39a7c133-3fa4-4d59-8c48-912e12a9338b")
+	)
+	(fp_line
+		(start 2.55 -1.735)
+		(end 2.55 9.315)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3d71e49e-b58e-43cb-8129-fe78870e9e96")
+	)
+	(fp_line
+		(start 3 -2.235)
+		(end 3 0.765)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6849b21f-ecd7-4d3d-bdcb-17e7426d8cab")
+	)
+	(fp_line
+		(start -3.45 -1.885)
+		(end -3.45 9.465)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0c6ff870-66c5-442b-9cc8-23c7d7085bf3")
+	)
+	(fp_line
+		(start -3.45 -1.885)
+		(end 2.7 -1.885)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "06ad3dc5-d774-4f4f-b9e7-02d9ae02df42")
+	)
+	(fp_line
+		(start -3.45 9.465)
+		(end 2.7 9.465)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6811ed0d-20f7-4b1e-8e1b-0d4b8921a42b")
+	)
+	(fp_line
+		(start 2.7 9.465)
+		(end 2.7 -1.885)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "64d5b9a6-356c-45d1-8336-994fd836956f")
+	)
+	(fp_line
+		(start -2.9 -1.335)
+		(end 2.2 -1.335)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b9b6282-e665-4c2e-afce-40e4a51719d6")
+	)
+	(fp_line
+		(start -2.9 8.865)
+		(end -2.9 -1.335)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c975f80-3a38-4acf-888b-5e7afe649381")
+	)
+	(fp_line
+		(start 0.9 0.765)
+		(end 2.2 1.765)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "decba090-10f2-4fc8-b21f-f34f96097802")
+	)
+	(fp_line
+		(start 2.2 -1.335)
+		(end 2.2 8.865)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2a6bb30-b299-41c4-ae25-36433f6eef48")
+	)
+	(fp_line
+		(start 2.2 -0.235)
+		(end 0.9 0.765)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b243bdff-3992-4b1a-af08-9a830e95b507")
+	)
+	(fp_line
+		(start 2.2 8.865)
+		(end -2.9 8.865)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3e41bc6b-91ec-45bc-8859-799d8e52fb0c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2 2.765 90)
+		(layer "F.Fab")
+		(uuid "719432a8-2b31-4387-8805-b2eaf928fed9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0.3)
+		(size 1.7 2.3)
+		(drill oval 1 1.69)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2bef59d7-48ad-44eb-9104-d4782d2170cf")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2.57)
+		(size 1.7 1.8)
+		(drill oval 1 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "241461d0-731e-4088-b841-e3ec7ad8c47d")
+	)
+	(pad "3" thru_hole oval
+		(at 0 4.96)
+		(size 1.7 1.8)
+		(drill oval 1 1.15)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7aa4dd3b-6a1d-44d4-b3c8-b5676316984c")
+	)
+	(pad "4" thru_hole oval
+		(at 0 7.23)
+		(size 1.7 2.3)
+		(drill oval 1 1.69)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8cd1934b-d26f-4450-8d57-c689cc342289")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector.3dshapes/NS-Tech_Grove_1x04_P2mm_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.3937 0.3937 0.3937)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)
