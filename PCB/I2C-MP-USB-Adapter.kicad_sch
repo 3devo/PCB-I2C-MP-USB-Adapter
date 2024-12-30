@@ -6,6 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "I2C-MP-USB-Adapter")
+		(comment 1 "Copyright 2024-2025 3devo <https://www.3devo.com>")
+		(comment 2 "Licensed under CERN-OHL-P v2 or any later version (3devo logo excluded)")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
